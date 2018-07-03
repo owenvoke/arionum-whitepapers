@@ -18,7 +18,7 @@ Arionum hopes to create a different model, where the tokens are created in a gra
 
 The mining reward starts at 1000 coins per block and is decreased by 1% of the starting value every 10800 blocks (approximately every 1 month). This roughly translates to 8 years and 4 months of mining, after which the network will be self-sustainable due to the transaction fees. The reward system will generate a total of 545.399.000 coins during its lifetime.
 
-Each customer can generate a wallet (or more) using the PHP-based CLI light wallet, the GUI light wallet, the node’s API or by creating his own software based on the functions described in the node. Each standard wallet contains one public / private key pair and the wallet’s address is derived from the public key. The keypair is generated using the ECDSA’s secp256k1 curve as a signing algorithm, based on PHP’s OpenSSL implementation.
+Each customer can generate a wallet (or more) using the PHP-based CLI light wallet, the GUI light wallet, the node’s API or by creating their own software based on the functions described in the node. Each standard wallet contains one public / private key pair and the wallet’s address is derived from the public key. The keypair is generated using the ECDSA’s secp256k1 curve as a signing algorithm, based on PHP’s OpenSSL implementation.
 
 One of the main advantages of Arionum is that it was fully written in PHP, one of the most popular programming languages in the world. While PHP is not as fast as C++ for example, the high number of developers that can easily understand and develop PHP and Arionum compensates for this.
 
