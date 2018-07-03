@@ -1,0 +1,25 @@
+dist: trusty
+
+language: node_js
+
+node_js:
+- node
+- lts/*
+
+sudo: false
+
+cache:
+  yarn: true
+  
+script:
+- yarn build
+
+deploy:
+  provider: releases
+  api_key:
+    secure: yDowHewBaLM5fdKJz6nAkbIAUs9zfyMDvOp/WUJeL5CUUmx+Kd2O+XupoENeYNl1C7EvTZ5PMcro9U53sJEC8LXGMjMN4lY6qJNnPyq4eQbAoBoVYFl/UGUIWOFm2B+OovwSHwYZhbSbUqrlvI6Pfr4RT1ZHwBkp7pxy6cDIUoQ9F6pej30kbcgwH7exQoY290VHDfHl4oCVlD+Yf4IHQUwo4rXvxIeTxadetSSH8f2P6GPdoAKx97c8K/D8a/TN2qtk6BgIRT0TRv5Pw+mQwZWC32OD9/9ZthRXopsShZVJsneAI5r0GKMuOx/LldkMZUsRyaqPhBd50uusDetx1PIrxtc8MEe5F/uPrGV5gSXR4n9C5eQFDosb3rI2PwKmAnWxLjU3lrLJw/+Y6dkBI6Gu69eMx5wuCZpx3L4itqnmjGSb2j6iebdfYYGyOQBYB4totB6CI+g4uFpg1Ms0qqp6GArHcQWjeq0d86AmMWBPmMqESv7gsIvTXGS9pDMe9wg3tMJaPimTPWc0R66ntgxcJCRZdFSyQmQmOKBwYtb8T+KnqkkP/SgNoJlTUjHbTySqtyp1wvI0VXeufgfDowKUKoBpwmP6wQ2D5VdXxwp6k/bR9mxb1OwbQ5SQaLnZXracbrqbZH8yi0E9jZJXgkHt6eS8vicGgEtJpQSlobM=
+  file: whitepaper.pdf
+  skip_cleanup: true
+  on:
+    repo: pxgamer/arionum-whitepapers
+    tags: true
