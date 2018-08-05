@@ -4,7 +4,7 @@
   "description": "A version-controlled backup of Arionum whitepapers.",
   "license": "MIT",
   "devDependencies": {
-    "markdown-pdf": "^8.1.1"
+    "markdown-pdf": "^9.0.0"
   },
   "scripts": {
     "build": "markdown-pdf whitepaper.md --out whitepaper.pdf"
