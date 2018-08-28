@@ -1,5 +1,6 @@
 # arionum-whitepapers
 
+[![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 
 A version-controlled backup of Arionum whitepapers.
@@ -27,6 +28,7 @@ $ npm run build
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/pxgamer/arionum-whitepapers/master.svg?style=flat-square
 
 [link-travis]: https://travis-ci.com/pxgamer/arionum-whitepapers
