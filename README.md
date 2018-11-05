@@ -11,7 +11,7 @@ A version-controlled backup of Arionum whitepapers.
 Via Git
 
 ```bash
-$ git clone git@github.com:pxgamer/arionum-whitepapers
+$ git clone https://github.com/pxgamer/arionum-whitepapers.git
 ```
 
 ## Usage
